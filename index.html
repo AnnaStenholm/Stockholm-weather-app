@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+
+        <!-- Google Fonts -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+        />
+
+        <!-- CSS Reset -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        />
+
+        <!-- Milligram CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+            integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+            crossorigin="anonymous"
+        />
+        <!-- You should properly set the path from the main file. -->
+        <link rel="stylesheet" href="style.css" />
+        <script src="javascript.js" defer></script>
+    </head>
+    <body>
+        <nav id="navbar">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Latest weather data</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <span
+            id="js-hamburger"
+            onclick="toggleMenu()"
+            class="hamburger-btn fas fa-bars"
+        ></span>
+        <main>
+            <h1>Temperaturen i Stockholm</h1>
+            <button onclick="sortByTempAsc()">Sortera på temperatur</button>
+            <button onclick="sortByDateDesc()">
+                Sortera på datum i fallande ordning
+            </button>
+            
+            </table>
+        </main>
+    </body>
+</html>
